@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "benchmark-test"
+version = "0.1.0"
+description = ""
+authors = ["MarkusSagen <markus.john.sagen@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+numpy = "^1.21.1"
+putils = "^0.2.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.0.2"
+ipython = "^7.25.0"
+torch = {url = "https://download.pytorch.org/whl/nightly/cu111/torch-1.10.0.dev20210719%2Bcu111-cp38-cp38-linux_x86_64.whl"}
+transformers = "^4.8.2"
+sentencepiece = "^0.1.96"
+py3nvml = "^0.2.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
