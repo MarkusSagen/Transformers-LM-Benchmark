@@ -30,9 +30,27 @@ pip install -
 
 * Features
 # An in-depth list of features, how to use them, and their dependencies.
+Run experiment tracking on inference time, training time and training GPU size. A machine with large GPU is needed to run the experiments.
+Investigates the relation between models, model size, sequence length, and batch size for Encoder type language models.
+
+Run the results:
+#+begin_src fish
+python run_menchmarks.py
+#+end_src
 
 * Configuration
 # How to configure this module, including common problems and how to address them.
 
 * Troubleshooting
 # Common issues and their solution, or places to look for help.
+Decoder type models and some text to text models are know to not work in the existing testing framework.
+Tested models that have not worked:
+
+- T5
+- mT5
+- Funnel Transformers
+- Reformer
+- conv Bert
+
+Feel free to send a PR or report issues to improve the results and extend the number of results.
+
