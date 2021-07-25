@@ -105,7 +105,7 @@ BERT_large,16,4,2690
 BERT_large,16,8,2706
 BERT_large,16,16,2724
 BERT_large,16,32,2766
-BERT_large,16,64,2856
+BERT_large,16,64,2872
 BERT_large,16,128,3074
 BERT_large,16,256,3382
 BERT_large,16,512,4330
@@ -215,7 +215,7 @@ RoBERTa_large,8,4,2772
 RoBERTa_large,8,8,2788
 RoBERTa_large,8,16,2800
 RoBERTa_large,8,32,2828
-RoBERTa_large,8,64,2910
+RoBERTa_large,8,64,2890
 RoBERTa_large,8,128,3024
 RoBERTa_large,8,256,3288
 RoBERTa_large,8,512,3924
